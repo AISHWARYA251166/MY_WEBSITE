@@ -1,0 +1,115 @@
+/* Global Reset and Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background: #34495e; /* Dark Blue */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid transparent; /* For visual effect */
+    transition: border-bottom 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    border-bottom: 2px solid #ecf0f1; /* Light Gray for hover/active */
+}
+
+/* Main Content Layout */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-left: 5px solid #3498db; /* Bright Blue accent */
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    color: #2c3e50; /* Darker Blue */
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+/* List and Job Styling (Resume Page) */
+.skills-list, .job ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.job {
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.job h3 {
+    color: #e74c3c; /* Red accent */
+    margin-bottom: 0.2rem;
+}
+
+.date {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #34495e;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Button Styling (index.html) */
+#toggle-details {
+    padding: 10px 15px;
+    background-color: #2ecc71; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#toggle-details:hover {
+    background-color: #27ae60;
+}
