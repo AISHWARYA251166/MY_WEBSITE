@@ -1,0 +1,207 @@
+/* Basic Reset and Font Setup */
+body {
+    font-family: 'Arial', sans-serif; /* Cleaner, modern font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.page-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+a {
+    color: #0044cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- HOME PAGE STYLES (index.html) --- */
+.home-page {
+    text-align: center;
+}
+
+h1 {
+    color: #0044cc;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 1.1em;
+    font-style: italic;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 20px;
+}
+
+.quick-links {
+    margin: 20px 0 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.link-button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.link-button:hover {
+    background-color: #003399;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #555;
+    margin: 0 15px;
+}
+.social-links a:hover {
+    color: #0044cc;
+}
+
+/* --- RESUME & BIO PAGES STYLES --- */
+
+.resume-header {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0044cc; /* Main section separator */
+}
+
+.resume-header h2 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* RESUME PHOTO STYLES */
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Makes the photo round */
+    object-fit: cover;
+    margin: 10px auto;
+    display: block; /* Centers the image */
+    border: 2px solid #ccc;
+}
+
+.contact-line {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ccc; /* Simple, clean separation */
+    margin-bottom: 0;
+}
+
+.section h3 {
+    color: #0044cc;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0; 
+}
+
+.entry {
+    margin-bottom: 15px;
+}
+
+.entry h4 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.meta {
+    margin: 2px 0;
+    font-size: 0.95em;
+    color: #777;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 5px;
+    font-size: 0.95em;
+}
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Skills List */
+.skills-list p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+/* --- BIO-DATA LAYOUT --- */
+.bio-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.bio-data-list {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 20px;
+    font-size: 0.95em;
+}
+.bio-data-list p {
+    margin: 4px 0;
+}
+
+.bio-photo-box {
+    width: 120px;
+    height: 140px;
+    flex-shrink: 0;
+    text-align: center;
+    border: 1px solid #ccc; 
+    padding: 2px;
+}
+
+.bio-photo-small {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.declaration-text {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.signature-line {
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.back-link {
+    margin-top: 20px;
+    text-align: center;
+}
